@@ -5,13 +5,13 @@ import "../styles/Navbar.css"
 import ReorderIcon from '@mui/icons-material/Reorder';
 
 function Navbar() {
-    const location = useLocation();
+    // const location = useLocation();
 
-    useEffect(() => {
-        setExpandNavbar(false);
-    }, [location]);
+    // useEffect(() => {
+    //     setExpandNavbar(false);
+    // }, [location]);
 
-    const [expandNavbar, setExpandNavbar] = useState(false);
+    // const [expandNavbar, setExpandNavbar] = useState(false);
 
     // const jumpToReleventDiv = (id) => {
     //     const releventDiv = document.getElementById(id);
@@ -19,8 +19,8 @@ function Navbar() {
     //     releventDiv.scrollIntoView({behavior: "smooth"});
     //   }
     return (
-        <div className='nav-bar' id={expandNavbar ? "open": "closed"} >
-            <div className='toggle-btn'>
+        <div className='nav-bar'>
+            {/* <div className='toggle-btn'>
                 <button id='toggle-btn-container'
                 onClick={() => {
                     setExpandNavbar((prev) => !prev);
@@ -28,7 +28,7 @@ function Navbar() {
                 >
                     <ReorderIcon/>
                 </button>
-            </div>
+            </div> */}
             <div className='nav-items-container'>
                 <div className='nav-items'> 
                     {/* <button onClick={() => {

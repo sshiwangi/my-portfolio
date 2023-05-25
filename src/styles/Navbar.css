@@ -2,7 +2,7 @@
     background-color: #385A64;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px 30px;
     /* width: 100%; */
     font-size: 20px;
@@ -47,10 +47,10 @@ button#toggle-btn-container {
     }
 }
 @media screen and (max-width: 768px) {
-    .nav-items-container {
+    /* .nav-items-container {
         display: none;
-    }
-    .nav-bar {
+    } */
+    /* .nav-bar {
         left: 0;
-    }
+    } */
 }

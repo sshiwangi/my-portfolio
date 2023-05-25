@@ -56,7 +56,7 @@ function Experience() {
                         </div>
                         <div className="service-item-row-content-items">
                            <div className="service-item-row-content-items-heading">
-                                GSOC
+                                GSSOC
                             </div>
                             <div className="service-item-row-content-items-duration">
                                 March 2022 - May 2022

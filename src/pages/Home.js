@@ -2,10 +2,10 @@ import React from 'react';
 import "../styles/Home.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import About from "../components/About"
-import Experience from "../components/Experience"
-import Projects from "../components/Projects"
-import Services from "../components/Services"
+import About from "../components/About";
+import Experience from "../components/Experience";
+import Projects from "../components/Projects";
+import Services from "../components/Services";
 // import "../Images/girl.png";
 
 function Home() {
